@@ -1,0 +1,64 @@
+### Qoo10 Certification Key 요청 (POST)
+POST https://api.qoo10.sg/GMKT.INC.Front.QAPIService/Giosis.qapi
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+
+v=1.0
+returnType=json
+method=CertificationAPI.CreateCertificationKey
+key=BhiQeRsAhG1qw92lU8Z2mr6iz6TSr9ngUMzqUo_g_2_Ejdo_g_3_
+user_id=prepia
+pwd=vmflvlfkd11%21%40
+
+### Qoo10 Certification Key 요청 (POST)
+POST https://api.qoo10.jp/GMKT.INC.Front.QAPIService/ebayjapan.qapi
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+GiosisCertificationKey: BhiQeRsAhG1qw92lU8Z2mr6iz6TSr9ngUMzqUo_g_2_Ejdo_g_3_
+
+QAPIVersion=1.0&returnType=application/json&method=CertificationAPI.CreateCertificationKey&user_id=prepia&pwd=vmflvlfkd11!@
+
+### Qoo10 Certification Key 요청 (XML 응답)
+GET https://api.qoo10.jp/GMKT.INC.Front.QAPIService/ebayjapan.qapi?v=1.0&returnType=xml&method=CertificationAPI.CreateCertificationKey&user_id=prepia&pwd=vmflvlfkd11!@
+Accept: application/xml
+GiosisCertificationKey: BhiQeRsAhG1qw92lU8Z2mr6iz6TSr9ngUMzqUo_g_2_Ejdo_g_3_
+
+
+
+
+### Qoo10 Certification Key 요청 (POST, API Key를 헤더로 추가)
+POST https://api.qoo10.sg/GMKT.INC.Front.QAPIService/Giosis.qapi
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+GiosisCertificationKey: BhiQeRsAhG1qw92lU8Z2mr6iz6TSr9ngUMzqUo_g_2_Ejdo_g_3_
+
+v=1.0&returnType=json&method=CertificationAPI.CreateCertificationKey&user_id=prepia&pwd=vmflvlfkd11!@
+
+
+### Qoo10 Certification Key 요청 (API Key를 헤더로 전달)
+POST https://api.qoo10.sg/GMKT.INC.Front.QAPIService/Giosis.qapi
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+GiosisCertificationKey: BhiQeRsAhG1qw92lU8Z2mr6iz6TSr9ngUMzqUo_g_2_Ejdo_g_3_
+
+v=1.0&returnType=json&method=CertificationAPI.CreateCertificationKey&user_id=prepia&pwd=vmflvlfkd11!@
+
+### Qoo10 Certification Key 요청 (POST)
+POST https://api.qoo10.jp/GMKT.INC.Front.QAPIService/ebayjapan.qapi/ShippingBasic.GetShippingInfo_v3
+Content-Type: application/x-www-form-urlencoded
+
+QAPIVersion=1.0
+GiosisCertificationKey=BhiQeRsAhG1qw92lU8Z2mr6iz6TSr9ngUMzqUo_g_2_Ejdo_g_3_
+returnType=application/json
+ShippingStatus=1
+SearchStartDate=20250101
+SearchEndDate=20250201
+SearchCondition=1
+
+### Qoo10 API Key 검증 요청 (POST)
+POST https://api.qoo10.jp/GMKT.INC.Front.QAPIService/ebayjapan.qapi
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+GiosisCertificationKey: S5bnbfynQvNaWXYBDkJxpTovGg2tnREpIMm4cFltC3uAwdlXcCoO8o8z_g_2_e1mmaLnWe_g_1_8niXMXEZOYHLGAOnH54dMfJdsNtttf9XRlSGRehs91qzM_g_1_ja51Q_g_3__g_3_
+
+v=1.0&returnType=json&method=ShippingBasic.GetShippingInfo_v3&ShippingStatus=1&SearchStartDate=20240201&SearchEndDate=20240210&SearchCondition=1

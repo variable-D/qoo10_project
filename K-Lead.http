@@ -1,0 +1,130 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+
+POST https://www.koreaesim.com:8443/mallapi/extern/k-lead/dev/k-lead_pickup
+Content-Type: application/json; charset=utf-8
+client_id:k-lead_sim
+client_secret: 923AB713F68AF6E26BC4D36355608FE43F0699CE5FEF42A353016DEA29750CDF
+
+//{
+//  "order_id": "20250206-0000999",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000998",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000997",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000996",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000995",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000994",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000993",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000992",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000991",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000990",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+//{
+//  "order_id": "20250206-0000989",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250206",
+//  "payment_date": "20250206"
+//}
+
+{
+  "order_id": "20250206-0000988",
+  "buy_user_name": "변동환",
+  "product_type": "US",
+  "product_days": "3",
+  "quantity": 1,
+  "apply_start_date": "20250206",
+  "payment_date": "20250206"
+}
