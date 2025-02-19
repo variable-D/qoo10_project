@@ -1,5 +1,7 @@
 {
   "require": {
-    "": "<default>"
+    "": "<default>",
+    "ext-mysqli": "*",
+    "ext-json": "*"
   }
 }

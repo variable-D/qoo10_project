@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="koreaesim.vps.phps.kr" id="70a52b91-f87d-4feb-bb4e-101780f314be" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="koreaesim.vps.phps.kr" id="b3315da0-37a0-46a3-aead-af3006e9d21c" port="22" nameFormat="DESCRIPTIVE" username="webmaster" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
