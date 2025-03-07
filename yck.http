@@ -1,0 +1,25 @@
+
+POST https://www.koreaesim.com:8443/mallapi/extern/yck/dev/yck_pickup
+Content-Type: application/json; charset=utf-8
+client_id:yck_esim
+client_secret: D17F354C6986F735B0C47DE69E74560D42FCBDE421AA632794697176FD3F5AE2
+
+//{
+//  "order_id": "YCK250226TB0001-01",
+//  "buy_user_name": "변동환",
+//  "product_type": "US",
+//  "product_days": "3",
+//  "quantity": 1,
+//  "apply_start_date": "20250301",
+//  "payment_date": "20250226"
+//}
+
+{
+  "order_id": "YCK250226TB0002",
+  "buy_user_name": "변동환",
+  "product_type": "US",
+  "product_days": "3",
+  "quantity": 1,
+  "apply_start_date": "20250301",
+  "payment_date": "20250226"
+}

@@ -11,8 +11,8 @@ if (mysqli_connect_errno()) {
 include_once "/var/www/html/mobile_app/mgr/phpbarcode/src/BarcodeGeneratorPNG.php";
 include_once "/var/www/html/mobile_app/mgr/phpqrcode/qrlib.php";
 
-$start_date = date("Ymd", strtotime("-3 days"));
-$end_date = date("Ymd");
+$start_date = date("Ymd", strtotime("-3 days")); // 현재 날짜 부터 3일전
+$end_date = date("Ymd");// 현재 날짜
 
 /************************************************************************
  *  qoo10 API 이용해서 데이터 가져오기
@@ -384,7 +384,7 @@ foreach ($qoo10_data['ResultObject'] as $order) {
 
 
 
-                    include "/var/www/html/mobile_app/mgr/email_contents/email_contents_sk.php";
+                    include "/var/www/html/mobile_app/mgr/email_contents/email_contents_sk_jp.php";
 
 
 
